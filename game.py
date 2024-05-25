@@ -15,8 +15,7 @@ elif player_move == "s":
 else:
     raise SystemExit("Invalid input. Try again...")
 
-computer_random_number = random.randint(1, 3)
-computer_move = computer_random_number
+computer_move = random.randint(1, 3)
 
 if computer_move == 1:
     computer_move = rock
