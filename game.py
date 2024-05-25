@@ -16,7 +16,7 @@ else:
     raise SystemExit("Invalid input. Try again...")
 
 computer_random_number = random.randint(1, 3)
-computer_move = ""
+computer_move = computer_random_number
 
 if computer_move == 1:
     computer_move = rock
