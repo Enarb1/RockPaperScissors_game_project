@@ -15,7 +15,7 @@ elif player_move == "s":
 else:
     raise SystemExit("Invalid input. Try again...")
 
-computer_random_number = random.randint(1,3)
+computer_random_number = random.randint(1, 3)
 computer_move = ""
 
 if computer_move == 1:
